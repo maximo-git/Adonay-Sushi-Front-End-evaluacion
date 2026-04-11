@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff; /* Blanco de fondo */
+    color: #000000; /* Negro para texto */
+}
+
+.negro-adonay {
+    background-color: #1a1a1a !important; 
+}
+
+.rojo-adonay {
+    background-color: #e63946 !important; 
+}
+
+/* header y navegacion */
+nav .brand-logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+nav .brand-logo span {
+    color: #e63946; /* logo */
+}
+
+nav ul a {
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+nav ul a:hover {
+    color: #e63946 !important; /* Rojo al pasar el mouse */
+}
+
+/* banner princi */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.hero-content h2 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-content p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*boton menu */
+.btn-large.rojo-adonay {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+
+    background-color: #e63946 !important;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.btn-large.rojo-adonay:hover {
+    background-color: #c1121f !important; 
+    box-shadow: 0 6px 8px rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width: 992px) {
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+}
