@@ -85,6 +85,43 @@ nav ul a:hover {
     .hero-content p {
         font-size: 1.1rem;
     }
+} 
+.card-horizontal {
+    display: flex;                           
+    margin-bottom: 20px;           
+    border-radius: 10px;         
+    overflow: hidden;
+    align-items: center;
+}
+
+/* imagen */
+.card-horizontal img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;             
+}
+
+/* texto */
+.card-horizontal .info {
+    padding: 15px;
+    color: white;
+}
+
+/* titulo */
+.card-horizontal .info h3 {
+    color: #e63946;
+    margin-bottom: 5px;
+}
+
+/* descripcion */
+.card-horizontal .info p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+/* precio */
+.card-horizontal .info span {
+    font-weight: bold;
 }
 
  /*  Footer Valeria */
