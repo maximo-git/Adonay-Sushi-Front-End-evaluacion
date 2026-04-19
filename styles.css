@@ -107,10 +107,11 @@ nav ul a:hover {
         font-size: 0.9rem;
     }
 
-    /* Estilo para los enlaces de redes sociales al pasar el mouse */
-    .social-links a:hover {
+    /* Estilo para los enlaces al pasar el mouse */
+    .page-footer a:hover {
         color: #e53935 !important;
         transition: 0.3s;
+        text-decoration: none;
     }
 
     /* Ajuste para móviles */
@@ -126,5 +127,9 @@ nav ul a:hover {
         .footer-logo-container img {
             margin-right: 0 !important;
             margin-bottom: 10px;
+        }
+        .social-links {
+            justify-content: center;
+            display: flex;
         }
     }
