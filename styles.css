@@ -162,7 +162,7 @@ nav ul a:hover {
 }
 
  /*  Footer Valeria */
-    .page-footer {
+   .page-footer {
         padding-top: 40px;
         border-top: 2px solid #e53935; /* Rojo sushi */
     }
@@ -170,6 +170,7 @@ nav ul a:hover {
     .page-footer h5 {
         font-weight: 700;
         margin-bottom: 20px;
+        font-size: 1.2rem; /* Ajuste de tamaño para que quepan 4 columnas */
     }
 
     .page-footer ul li {
@@ -189,21 +190,19 @@ nav ul a:hover {
     }
 
     /* Ajuste para móviles */
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 992px) {
         .page-footer .col {
             text-align: center;
             margin-bottom: 30px;
         }
-        .footer-logo-container {
+        .footer-logo-container, .social-links-container a {
             justify-content: center;
-            flex-direction: column;
         }
         .footer-logo-container img {
             margin-right: 0 !important;
             margin-bottom: 10px;
         }
-        .social-links {
-            justify-content: center;
-            display: flex;
+        .footer-logo-container {
+            flex-direction: column;
         }
     }
