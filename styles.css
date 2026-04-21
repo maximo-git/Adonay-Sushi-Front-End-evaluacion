@@ -7,26 +7,22 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #ffffff; 
+    background-color: #000000; 
     color: #000000; 
 }
  
 .negro-adonay {
-    background-color: #1a1a1a !important; 
+    background-color: #b50606 !important; 
 }
-
-.rojo-adonay {
-    background-color: #e63946 !important; 
-}
-
 
 nav .brand-logo {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
+    color: #ffffff; 
 }
 
 nav .brand-logo span {
-    color: #e63946; 
+    color: #fbfbfb; 
 }
 
 nav ul a {
@@ -41,17 +37,19 @@ nav ul a:hover {
 /* banner princi */
 .hero-section {
     height: 100vh;
-    background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+    background: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 64px;
+    
 }
 
 .hero-content h2 {
     font-size: 3.5rem;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
+    
 }
 
 .hero-content p {
@@ -60,6 +58,7 @@ nav ul a:hover {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .btn-large.rojo-adonay {
@@ -75,6 +74,7 @@ nav ul a:hover {
 .btn-large.rojo-adonay:hover {
     background-color: #c1121f !important; 
     box-shadow: 0 6px 8px rgba(0,0,0,0.4);
+    
 }
 
 @media only screen and (max-width: 992px) {
@@ -91,7 +91,7 @@ nav ul a:hover {
     padding: 40px;
 } 
 #nosotros {
-    background: #000;
+    background: #000000;
     padding: 60px 20px;
     text-align: center;
 }
@@ -183,8 +183,8 @@ nav ul a:hover {
 
  /*  Footer */
    .page-footer {
-        padding-top: 40px;
-        border-top: 2px solid #e53935; 
+        padding-top: 0px;
+        border-top: 1.5px solid #e40400; 
     }
 
     .page-footer h5 {
@@ -203,7 +203,7 @@ nav ul a:hover {
     }
 
     .page-footer a:hover {
-        color: #e53935 !important;
+        color: #e40400 !important;
         transition: 0.3s;
         text-decoration: none;
     }
