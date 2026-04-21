@@ -85,7 +85,26 @@ nav ul a:hover {
     .hero-content p {
         font-size: 1.1rem;
     }
-} 
+}  
+#nosotros {
+    background: black;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#nosotros h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#nosotros p {
+    color: #ccc;
+    max-width: 600px;
+    margin: auto;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+}
 
 .menu {
     background: #000;
